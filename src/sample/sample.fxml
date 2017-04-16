@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="67.0" layoutY="235.0" mnemonicParsing="false" onAction="#loadData" prefHeight="27.0" prefWidth="106.0" text="open file" />
+      <TextField fx:id="a" layoutX="203.0" layoutY="235.0" prefHeight="27.0" prefWidth="319.0" promptText="                                   welcome" />
+      <Button fx:id="extract" disable="true" layoutX="333.0" layoutY="54.0" mnemonicParsing="false" onAction="#deCo" prefHeight="27.0" prefWidth="189.0" text="Extract" />
+      <Button fx:id="compress" disable="true" layoutX="57.0" layoutY="54.0" mnemonicParsing="false" onAction="#coFile" prefHeight="27.0" prefWidth="189.0" text="Compress" />
+      <ProgressBar layoutX="203.0" layoutY="281.0" prefHeight="20.0" prefWidth="319.0" progress="0.0" />
+      <Label layoutX="89.0" layoutY="283.0" text="Progress :" />
+      <ImageView fitHeight="117.0" fitWidth="142.0" layoutX="231.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Compression.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
